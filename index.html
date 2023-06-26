@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/vanity" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Home</title>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <header>
+
+
+
+            <nav>
+                <img class="logo" src="logo-no-background.png">
+                <ul id="list">
+                    <!-- <li><a href="">Home</a></li> -->
+                    <li class="margin" id="sgnup"><a href="">Sign Up</a></li>
+                    <li class="margin" id="login"><a href="">Login</a></li>
+                    <li class="margin"><a href="">About Us</a></li>
+
+                    <li class="margin"><a href="">Contact Us</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="searchbar">
+                <input type="text" id="search" placeholder="Search">
+                <img src="https://uploads-ssl.webflow.com/5ce10a4c0b5f0b05f522e746/6336b66e0ab1d6a939d2eaa9_icon-navi-search.svg"
+                    id="image">
+            </div>
+
+
+        </header>
+    </div>
+    <main>
+      <div class="text"><h1>Need Something?!!</h1>
+        <h2>Here it is!</h2>
+    <p>All your college needs in one place.</p></div>
+        <div class="buttons">
+            <a href="BuyPage.html"><button class="btnstyle">Buy Something</button></a>
+            <a href="RentPage.html"><button class="btnstyle">Rent Something</button></a>
+            <a href=""><button class="btnstyle">List Your Product</button></a>
+        </div>
+
+    </main>
+
+    <script>
+        let inputA = document.getElementById("search")
+        // let inputB = document.getElementById("sgnup")
+        // let inputC = document.getElementById("login")
+        // inputB.addEventListener("click", myFunction3)
+        // inputC.addEventListener("click", myFunction4)
+        inputA.addEventListener("mouseover", myFunction1)
+        inputA.addEventListener("mouseout", myFunction2)
+        function myFunction1() {
+            inputA.classList.remove("cl2");
+            inputA.classList.add("cl1");
+
+        }
+        function myFunction2() {
+            inputA.classList.remove("cl1");
+            inputA.classList.add("cl2");
+        }
+    //     function myFunction3() {
+        
+    //   const a=prompt("hello")
+    //    console.log(a)
+    //       }
+
+    </script>
+
+
+</body>
+
+</html>

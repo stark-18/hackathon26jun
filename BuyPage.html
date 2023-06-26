@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      background-color: #C5BEB4;
+    }
+
+    html {
+      font-size: 62.5%;
+    }
+
+    #books {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 6rem;
+      color: rgba(23, 23, 23, 0.729);
+      margin-left: 47rem;
+      text-decoration: underline;
+      margin-top: 1.8rem;
+    }
+
+    #tech {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 6rem;
+      color: rgba(23, 23, 23, 0.729);
+      margin-left: 49.2rem;
+      text-decoration: underline;
+      margin-top: 1.8rem;
+
+    }
+
+    #clothing {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 6rem;
+      color: rgba(23, 23, 23, 0.729);
+      margin-left: 44.7rem;
+      text-decoration: underline;
+      margin-top: 1.8rem;
+    }
+
+    #misc {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 6rem;
+      color: rgba(23, 23, 23, 0.729);
+      margin-left: 38.4rem;
+      text-decoration: underline;
+      margin-top: 1.8rem;
+    }
+
+    .img {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      width: 14rem;
+      margin-left: 50rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .image {
+      margin-top: 2rem;
+      margin-bottom: 5rem;
+      width: 14rem;
+      margin-left: 50rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .home {
+      position: absolute;
+      left: 116rem;
+      text-decoration: none;
+      font-size: 1.8rem;
+      color: rgba(23, 23, 23, 0.729);
+      font-family: 'Libre Baskerville', serif;
+
+
+    }
+
+    .home::after {
+      content: '';
+      height: .4rem;
+      width: 0;
+      background: #e27e97d5;
+      transition: all .5s;
+      display: block;
+    }
+
+    .home:hover::after {
+      width: 100%;
+    }
+
+    .home:hover {
+      color: rgba(23, 23, 23, 0.729);
+    }
+
+    .material-symbols-outlined {
+      width: 3rem;
+      height: 3rem;
+      position: absolute;
+      left: 113rem;
+    }
+
+
+
+    @media (min-width: 1281px) {
+
+      html {}
+
+    }
+
+    /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+
+      /* CSS */
+
+    }
+
+    /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+
+      /* CSS */
+
+    }
+
+    /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+      /* CSS */
+
+    }
+
+    /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+    @media (min-width: 481px) and (max-width: 767px) {
+
+      /* CSS */
+
+    }
+
+    /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+    @media (min-width: 320px) and (max-width: 480px) {
+
+      /* CSS */
+
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <title>BuyPage</title>
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="home">Home</a>
+    <span class="material-symbols-outlined">
+      home
+    </span>
+  </header>
+  <main>
+    <p id="books">Books</p>
+    <a
+      href="https://www.amazon.in/Higher-Engineering-Mathematics-B-S-Grewal/dp/8193328493/ref=sr_1_3?crid=3PADCIAA03DM4&keywords=engineering+mathematics&qid=1687045758&sprefix=engineering+mathematic%2Caps%2C421&sr=8-3"><img
+        src="https://m.media-amazon.com/images/I/511tyCxLHML._SX198_BO1,204,203,200_QL40_FMwebp_.jpg" class="image"></a>
+    <a
+      href="https://www.amazon.in/Text-Book-Engineering-Chemistry/dp/B01MUBN7F2/ref=sr_1_4?crid=2K19J60D1QG02&keywords=engineering+chemistry&qid=1687045146&sprefix=engineering+chemistry%2Caps%2C232&sr=8-4"><img
+        class="img" src="https://m.media-amazon.com/images/I/41YACBTFaCL._SX332_BO1,204,203,200_.jpg"></a>
+    <a
+      href="https://www.amazon.in/Engineering-Physics-Practical-K-Katiyar/dp/8126570156/ref=sr_1_1_sspa?crid=HRDFUHKE4ZDJ&keywords=engineering+physics&qid=1687045199&sprefix=engineering+phy%2Caps%2C243&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img
+        class="img" src="https://m.media-amazon.com/images/I/61MqvDbyi2L._SX379_BO1,204,203,200_.jpg"></a>
+    <a
+      href="https://www.amazon.in/Black-Covers-JavaScript-XHTML-jQuery/dp/935119907X/ref=sr_1_1_sspa?crid=1KM1699088PD0&keywords=javascript+book&qid=1687045243&sprefix=javascript+book%2Caps%2C250&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img
+        class="img" src="https://m.media-amazon.com/images/I/514faGhNXxL._SX385_BO1,204,203,200_.jpg"></a>
+    <a
+      href="https://www.amazon.in/Programming-Java-Balagurusamy/dp/9353162343/ref=sr_1_1_sspa?crid=3BA7KYOAMHVZA&keywords=java+programming+books&qid=1687045286&sprefix=java+%2Caps%2C231&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img
+        src="https://m.media-amazon.com/images/I/41Fji-VVHYL._SX380_BO1,204,203,200_.jpg" class="img"></a>
+    <a
+      href="https://www.amazon.in/Think-Grow-Rich-Napoleon-Hill/dp/9353338158/ref=sr_1_2_sspa?crid=19GCUECBXPUCA&keywords=self+growth+books&qid=1687045397&sprefix=self+growth+%2Caps%2C224&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img
+        src="https://m.media-amazon.com/images/I/411OtAf040L._SY264_BO1,204,203,200_QL40_FMwebp_.jpg" class="img"></a>
+    <a
+      href="https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834/ref=sr_1_2?keywords=atomic+habits&qid=1687045437&sr=8-2"><img
+        src="https://m.media-amazon.com/images/I/51-nXsSRfZL._SX328_BO1,204,203,200_.jpg" class="img"></a>
+    <a
+      href="https://www.amazon.in/Rich-Dad-Poor-Middle-Anniversary/dp/1612681131/ref=sr_1_3?crid=KNHVSD7TZOYR&keywords=rich+dad+poor+dad+book&qid=1687045479&sprefix=rich+%2Caps%2C256&sr=8-3"><img
+        src="https://m.media-amazon.com/images/I/51Hfv2MfNGL._SX331_BO1,204,203,200_.jpg" class="img"></a>
+    <hr>
+
+
+    <p id="tech">Tech</p>
+    <a
+      href="https://www.amazon.in/HP-Micro-Edge-Anti-Glare-Graphics-15s-eq2223AU/dp/B0BZYTVPR2/ref=sr_1_1_sspa?crid=3HY6DLZ1UAGMV&keywords=laptops&qid=1687078037&sprefix=laptops%2Caps%2C297&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img
+        src="https://m.media-amazon.com/images/I/81TdQekShgL._AC_UY218_.jpg" class="image"></a>
+    <a
+      href="https://www.amazon.in/ASUS-15-6-inch-GeForce-Windows-FA506IHRZ-HN111W/dp/B0B5DZTNZQ/ref=sr_1_18?crid=3HY6DLZ1UAGMV&keywords=laptops&qid=1687078037&sprefix=laptops%2Caps%2C297&sr=8-18"><img
+        src="https://m.media-amazon.com/images/I/91zVSkGGZbS._AC_UY218_.jpg" class="img"></a>
+    <a
+      href="https://www.amazon.in/Lenovo-IdeaPad-39-62cm-Windows-82SF008WIN/dp/B0B56CPVX5/ref=sr_1_21_sspa?crid=3HY6DLZ1UAGMV&keywords=laptops&qid=1687078037&sprefix=laptops%2Caps%2C297&sr=8-21-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1"><img
+        src="https://m.media-amazon.com/images/I/71Kal1HKAsL._AC_UY218_.jpg" class="img"></a>
+    <a
+      href="https://www.amazon.in/Samsung-Storage-MediaTek-Octa-core-Processor/dp/B0BMGB2TPR/ref=sr_1_3?crid=QZFY7H44431T&keywords=phones&qid=1687078234&sprefix=phone%2Caps%2C261&sr=8-3"><img
+        src="https://m.media-amazon.com/images/I/814ePfNubRL._AC_UY218_.jpg" class="img"></a>
+    <a
+      href="https://www.amazon.in/realme-Storage-Processor-Triple-Display/dp/B09RMN7HY3/ref=sr_1_5?crid=QZFY7H44431T&keywords=phones&qid=1687078234&sprefix=phone%2Caps%2C261&sr=8-5"><img
+        class="img" src="https://m.media-amazon.com/images/I/81X85GWtYHL._AC_UY218_.jpg"></a>
+    <a
+      href="https://www.amazon.in/OnePlus-Titan-Black-128GB-Storage/dp/B0BQJMRXQV/ref=sr_1_13?crid=QZFY7H44431T&keywords=phones&qid=1687078234&sprefix=phone%2Caps%2C261&sr=8-13"><img
+        class="img" src="https://m.media-amazon.com/images/I/71K84j2O8wL._AC_UY218_.jpg"></a>
+    <a
+      href="https://www.amazon.in/beatXP-Smartwatch-Bluetooth-Tracking-Electric/dp/B0C4T9J84B/ref=sr_1_1_sspa?crid=3ROTZ0JCIPID7&keywords=smart+watch&qid=1687078375&sprefix=smart+watch%2Caps%2C370&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img
+        class="img" src="https://m.media-amazon.com/images/I/71YaWxY-IEL._AC_UY218_.jpg"></a>
+    <a
+      href="https://www.amazon.in/boAt-Display-Multiple-Monitoring-Charcoal/dp/B09MQSCJQ1/ref=sr_1_7?crid=3ROTZ0JCIPID7&keywords=smart+watch&qid=1687078375&sprefix=smart+watch%2Caps%2C370&sr=8-7"><img
+        class="img" src="https://m.media-amazon.com/images/I/617ysOitciL._AC_UY218_.jpg"></a>
+    <a
+      href="https://www.amazon.in/boAt-Wave-Leap-Call-Multi-Sports/dp/B0BX43SC5F/ref=sr_1_11_sspa?crid=3ROTZ0JCIPID7&keywords=smart+watch&qid=1687078375&sprefix=smart+watch%2Caps%2C370&sr=8-11-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1"><img
+        class="img" src="https://m.media-amazon.com/images/I/61v7aU4snCL._AC_UY218_.jpg"></a>
+    <hr>
+    <p id="clothing">Clothing</p>
+    <a
+      href="https://www.amazon.in/Lymio-Casual-Stylish-Printed-Mistry/dp/B0BRKHXG3V/ref=sr_1_6?crid=33KLYN2GUAVFJ&keywords=men+clothing&qid=1687078636&sprefix=men+clothing%2Caps%2C315&sr=8-6"><img
+        src="https://m.media-amazon.com/images/I/71MaGTXl7ML._AC_UL320_.jpg" class="image"></a>
+    <a
+      href="amazon.in/NEVER-LOSE-Polyester-Running-Pockets/dp/B0B1MMMKVQ/ref=sr_1_15?crid=33KLYN2GUAVFJ&keywords=men+clothing&qid=1687078636&sprefix=men+clothing%2Caps%2C315&sr=8-15"><img
+        src="https://m.media-amazon.com/images/I/31ESWFjUO9L._AC_UL320_.jpg" class="img"></a>
+    <a
+      href="https://www.amazon.in/DHRUVI-TRENDZ-Cotton-Shirts-Regular/dp/B0BY3383TQ/ref=sr_1_18?crid=33KLYN2GUAVFJ&keywords=men+clothing&qid=1687078636&sprefix=men+clothing%2Caps%2C315&sr=8-18"><img
+        src="https://m.media-amazon.com/images/I/61E+biE5SIL._AC_UL320_.jpg" class="img"></a>
+    <a
+      href="https://www.amazon.in/Amazon-Brand-Tavasya-Womens-palazzo/dp/B08KKJSWNF/ref=sxin_16_trfobq2av2_0_B08KKJSWNF?content-id=amzn1.sym.c1eb4b2a-b703-404b-a097-61cb8a5ee3cb%3Aamzn1.sym.c1eb4b2a-b703-404b-a097-61cb8a5ee3cb&crid=Z76F11ZZZOXO&cv_ct_cx=women+clothing&keywords=women+clothing&pd_rd_i=B08KKJSWNF&pd_rd_r=36eea67b-46dc-47a0-9485-ba6e0280bee3&pd_rd_w=ksbN1&pd_rd_wg=NPyEc&pf_rd_p=c1eb4b2a-b703-404b-a097-61cb8a5ee3cb&pf_rd_r=6XF6TGTWNZH67W22VZAC&qid=1687078775&sprefix=women+clothing%2Caps%2C312&sr=1-1-973fd8bd-28ce-479e-8be4-fbaf1193947a"><img
+        src="https://m.media-amazon.com/images/I/91EdeW7yrOL._AC_UL320_.jpg" class="img"></a>
+    <a
+      href="https://www.amazon.in/Womens-top-Shirt-Fabric-Summer/dp/B0BLF2NJMY/ref=sr_1_16?crid=Z76F11ZZZOXO&keywords=women+clothing&qid=1687078775&sprefix=women+clothing%2Caps%2C312&sr=8-16"><img
+        src="https://m.media-amazon.com/images/I/31IW8xkDimL._AC_UL320_.jpg" class="img"></a>
+    <a
+      href="https://www.amazon.in/ROYALICA-Women-Black-Checked-Medium/dp/B0B4Q93N1D/ref=sr_1_83?crid=Z76F11ZZZOXO&keywords=women+clothing&qid=1687078876&sprefix=women+clothing%2Caps%2C312&sr=8-83"><img
+        src="https://m.media-amazon.com/images/I/51EztyrOL-L._AC_UL320_.jpg" class="img"></a>
+    <hr>
+
+
+    <p id="misc">Miscellaneous</p>
+    <a
+      href="https://www.amazon.in/PLAZZO-Foldable-Portable-Wooden-Writing/dp/B0BSSCLF7N/ref=sr_1_5?crid=3KKDNTQ7QVOGY&keywords=study+table&qid=1687078985&sprefix=study+tabl%2Caps%2C298&sr=8-5"><img
+        src="https://m.media-amazon.com/images/I/817zPBf7FTL._AC_UL320_.jpg" class="image"></a>
+    <a
+      href="https://www.amazon.in/SaleOn-Rechargeable-Touch-Table-Protection/dp/B09DGPB69B/ref=sr_1_5?crid=26S3C6KW7S0Q5&keywords=study+lamp&qid=1687079027&sprefix=study+lamp%2Caps%2C276&sr=8-5"><img
+        src="https://m.media-amazon.com/images/I/51Hrw0FWpbL._AC_UL320_.jpg" class="img"></a>
+    <a
+      href="https://www.amazon.in/Milton-Stainless-Fridge-Bottle-Silver/dp/B07CVZ8G7T/ref=sr_1_5?crid=T485V37YU5N7&keywords=milton+water+bottle&qid=1687079090&sprefix=milton+water+bottl%2Caps%2C268&sr=8-5"><img
+        src="https://m.media-amazon.com/images/I/71miJj-txUL._AC_UL320_.jpg" class="img"></a>
+    <a
+      href="https://www.amazon.in/Lenovo-15-6-Inches-Everyday-Backpack/dp/B08R7RPVJF/ref=sr_1_4?crid=1ILIQ4G8FP4ZK&keywords=laptop+bag&qid=1687079133&sprefix=laptop+bag%2Caps%2C265&sr=8-4"><img
+        src="https://m.media-amazon.com/images/I/61v0-iGlR1L._AC_UY218_.jpg" class="img"></a>
+    <a
+      href="https://www.amazon.in/Safari-Pentagon-Polypropylene-Hardsided-Luggage/dp/B097QP8JGZ/ref=sr_1_6?crid=1P7S24G5HOV7K&keywords=trolley+bag&qid=1687079216&sprefix=trolley+bag%2Caps%2C273&sr=8-6"><img
+        src="https://m.media-amazon.com/images/I/51zzUcG6EKL._AC_UL320_.jpg" class="img"></a>
+    <hr>
+  </main>
+</body>
+
+</html>
